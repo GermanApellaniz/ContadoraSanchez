@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/* line 1, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#miHead {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  display: block;
+  background: linear-gradient(to right, #434564, #6967d5);
+}
+
+/* line 7, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#miHead .miHead__encabezado {
+  font-size: 2rem;
+}
+
+/* line 14, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.banner {
+  min-height: 300px;
+  max-height: 381px;
+  max-width: 410px;
+  height: 30vh;
+  background-image: url("../media/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 150px;
+}
+
+@media all and (min-width: 576px) {
+  /* line 26, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+  .banner {
+    min-height: 300px;
+    max-height: 381px;
+    max-width: 810px;
+    height: 30vh;
+    background-image: url("../media/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 130px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  /* line 39, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+  .banner {
+    margin-top: 100px;
+  }
+}
+
+/* line 43, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#miBody .miBody__navegador {
+  color: purple;
+  font-size: 2rem;
+  padding: 20px;
+  margin-bottom: 5px;
+  border: 3px solid #000;
+  width: 46%;
+  box-sizing: border-box;
+  height: 50%;
+  background-color: grey;
+  transform: scale(1);
+  text-align: center;
+}
+
+/* line 55, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#miBody .miBody__navegador:hover {
+  transform: scale(1.1);
+}
+
+/* line 59, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.miFooter__enlace__linkedin {
+  width: 25px;
+}
+
+/* line 62, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.miFooter__enlace__gmail {
+  width: 32px;
+  margin-left: 5px;
+}
+
+/* line 66, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#miFooter {
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  display: block;
+}
+
+/* line 71, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#miFooter .miFooter__enlace {
+  background-color: white;
+}
+
+/*Revisar para abajo*/
+/* line 76, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.colorNavegador {
+  background: linear-gradient(to right, #434564, #6967d5);
+}
+
+/* line 79, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.navegadorMenu li {
+  color: white;
+  font-size: 1rem;
+  list-style-position: inside;
+  list-style-type: upper-roman;
+  display: inline-block;
+  margin: 7px;
+}
+
+/* line 87, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.navegacion li {
+  color: purple;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 5px 2% 5px 27%;
+  border: 3px solid #000;
+  width: 46%;
+  box-sizing: border-box;
+  height: 50%;
+  background-color: grey;
+  transform: scale(1);
+  text-align: center;
+}
+
+/* line 100, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.navegacion li:hover {
+  transform: scale(1.1);
+}
+
+/* line 103, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.navegacion {
+  list-style: none;
+}
+
+/* line 106, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.titulos {
+  color: white;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* line 111, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#menu a {
+  color: #fff;
+}
+
+/* line 114, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.subContacto {
+  color: #000;
+  font-size: 1.5rem;
+  font-style: italic;
+  padding-top: 150px;
+}
+
+/* line 120, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.tituloTabla {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 125, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.logoPrincipal {
+  width: 7vh;
+}
+
+/* line 128, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.foto {
+  display: block;
+  margin: auto;
+  padding-top: 150px;
+}
+
+/* line 133, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.logo {
+  width: 7vh;
+}
+
+/* line 136, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+body {
+  background-color: #e91e630f;
+}
+
+/* line 139, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.colorNavegador {
+  background: linear-gradient(to right, #434564, #6967d5);
+}
+
+/* line 142, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#menu {
+  position: fixed;
+  width: 60%;
+  top: 0px;
+  display: block;
+  margin-left: 20%;
+  align-content: center;
+}
+
+/* line 150, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400px;
+}
+
+/* line 154, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#iconos {
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  margin-left: 90%;
+}
+
+/* line 160, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.iconosNavegacion li {
+  display: inline-block;
+  margin: 7px;
+}
+
+/* line 164, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.linkedin {
+  width: 25px;
+}
+
+/* line 167, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.gmail {
+  width: 32px;
+}
+
+/* line 170, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.cuerpoPresentacion {
+  margin-top: 150px;
+}
+
+@media all and (min-width: 576px) {
+  /* line 174, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+  .cuerpoPresentacion {
+    margin-top: 100px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  /* line 179, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+  .cuerpoPresentacion {
+    margin-top: 120px;
+  }
+}
+
+/* line 183, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.cuerpoPresentacion img {
+  width: 150px;
+  margin-left: 43%;
+  padding: 10px;
+}
+
+/* line 188, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.cuerpoPresentacion p {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* line 192, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.tablaCentral img {
+  width: 100px;
+  margin-left: 0%;
+  box-sizing: border-box;
+  border: 3px solid #000;
+}
+
+/* line 198, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.tablaLiq {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 205, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.tablaCont {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 212, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.tablaAper {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 219, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.tablaImp {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 226, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.tablaCentral {
+  padding-top: 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* line 234, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.menuNavegacion {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* line 240, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.titulo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* line 246, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.volver {
+  width: 100px;
+}
+
+/* line 249, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#contactoCentrar {
+  padding-top: 30px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+}
+
+/* line 257, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.hijoContacto {
+  height: 0px;
+  width: 30%;
+  padding: 30px;
+}
+
+/* line 262, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.hijoContactoMensaje {
+  width: 30%;
+  height: 40px;
+  padding: 30px;
+}
+
+/* line 267, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#queHacemos {
+  margin-top: 150px;
+}
+
+/* line 269, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#queHacemos .queHacemos__imagen {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+}
+
+/* line 274, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+#queHacemos .queHacemos__titulo {
+  margin-top: 3px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

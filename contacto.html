@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords"content="contador, Liquidacion, sueldo, impuestos, empresa, asesoramiento, fiscal, bps, dgi, mtss, finanzas, declaracion, factura">
+    <meta name="description" content="Contadora que se dedica a la liquidacion de sueldos, impuestos, inscripcion de empresas, gestion contable, y realizacion de tramites en general">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+	<title>Contacto Contadora</title>
+	
+</head>
+<body>
+	<div id="miHead" class="container-flex">
+      <div class="row">
+        <div class="col-lg-5 mx-auto text-center text-white">
+          <h1 class="miHead__encabezado mt-2">Contadora Maria Cristina Sanchez</h1>
+        </div>
+        <div class="col-lg-7 mx-auto">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Menú Principal <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="presentacion.html">Presentacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="que_hacemos.html">Que Hacemos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+      </div>
+    </div>
+	<div id="contactoCentrar">
+		<h4 class="subContacto">Deje sus datos para que podamos contactarnos</h4>
+		<form action="" method="POST"enctype="multipart/form-data">
+			<div class="hijoContacto">
+				<label>Nombre*</label>
+				<input type="text" name="nombre" placeholder="Ingrese el nombre">
+			</div>
+			<div class="hijoContacto">
+				<label>Apellido*</label>
+				<input type="text" name="apellido" placeholder="Ingrese el apellido">	
+			</div>
+			<div class="hijoContacto">
+				<label>Correo*</label>
+				<input type="email" name="correo" placeholder="correo@mail.com">
+			</div>
+			<div class="hijoContacto">
+				<label>Asunto*</label>
+				<input type="text" name="asunto" placeholder="Asunto">
+			</div>
+			<div class="hijoContacto">
+				<label>Ya es cliente nuesto*</label>
+				<label for="OpSi"> Si </label>
+				<input type="radio" name="cliente" value="si" id="OpSi">
+				<label for="OpNo"> No </label>
+				<input type="radio" name="cliente" value="no" id="OpNo">
+			</div>
+			<div class="hijoContactoMensaje">
+				<label for="mensaje">Mensaje *</label>
+				<p></p>
+				<textarea name="mensaje" rows="5" cols=" 30" placeholder="mensaje"> </textarea>
+			</div>
+			<div class="hijoContacto">
+				<input type="submit" name="enviar" value="ENVIAR">
+				<input type="reset" value="Limpiar">
+			</div>
+		</form>
+	</div>
+	<!--Empieza el Footer-->
+	<div id="miFooter" class="container-flex row">
+      <div class="mx-auto text-right">
+        <a type="button" class="btn btn-primary miFooter__enlace" data-toggle="modal" data-target="#exampleModal"><img class="linkedin" src="media/linkedin.png" alt="MiFoto"></a>
+        <a type="button" class="btn btn-primary miFooter__enlace" data-toggle="modal" data-target="#exampleModal"> <img class="gmail" src="media/gmail.svg" alt="MiFoto"></a>
+      </div>
+  </div>
+  <!--Termina el Footer-->
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Iconos Footer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Todavia no hace nada</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
