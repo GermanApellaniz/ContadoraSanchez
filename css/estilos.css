@@ -123,8 +123,8 @@
   text-align: center;
 }
 
-/* line 100, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
-.navegacion li:hover {
+/* line 99, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.navegacion li :hover {
   transform: scale(1.1);
 }
 
@@ -180,14 +180,11 @@
 /* line 136, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 body {
   background-color: #e91e630f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400px;
 }
 
-/* line 139, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
-.colorNavegador {
-  background: linear-gradient(to right, #434564, #6967d5);
-}
-
-/* line 142, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 141, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 #menu {
   position: fixed;
   width: 60%;
@@ -197,13 +194,7 @@ body {
   align-content: center;
 }
 
-/* line 150, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400px;
-}
-
-/* line 154, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 149, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 #iconos {
   position: fixed;
   width: 100%;
@@ -211,55 +202,55 @@ body {
   margin-left: 90%;
 }
 
-/* line 160, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 155, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .iconosNavegacion li {
   display: inline-block;
   margin: 7px;
 }
 
-/* line 164, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 159, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .linkedin {
   width: 25px;
 }
 
-/* line 167, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 162, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .gmail {
   width: 32px;
 }
 
-/* line 170, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 165, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .cuerpoPresentacion {
   margin-top: 150px;
 }
 
-@media all and (min-width: 576px) {
-  /* line 174, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
-  .cuerpoPresentacion {
-    margin-top: 100px;
-  }
+/* line 167, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+.cuerpoPresentacion p {
+  margin: 20px;
+  padding: 10px;
 }
 
-@media all and (min-width: 992px) {
-  /* line 179, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
-  .cuerpoPresentacion {
-    margin-top: 120px;
-  }
-}
-
-/* line 183, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 171, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .cuerpoPresentacion img {
   width: 150px;
   margin-left: 43%;
   padding: 10px;
 }
 
-/* line 188, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
-.cuerpoPresentacion p {
-  margin: 20px;
-  padding: 10px;
+@media all and (min-width: 576px) {
+  /* line 178, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+  .cuerpoPresentacion {
+    margin-top: 100px;
+  }
 }
 
-/* line 192, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+@media all and (min-width: 992px) {
+  /* line 183, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+  .cuerpoPresentacion {
+    margin-top: 120px;
+  }
+}
+
+/* line 187, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .tablaCentral img {
   width: 100px;
   margin-left: 0%;
@@ -267,7 +258,7 @@ body {
   border: 3px solid #000;
 }
 
-/* line 198, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 193, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .tablaLiq {
   width: 20%;
   display: flex;
@@ -276,7 +267,7 @@ body {
   align-items: center;
 }
 
-/* line 205, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 200, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .tablaCont {
   width: 20%;
   display: flex;
@@ -285,7 +276,7 @@ body {
   align-items: center;
 }
 
-/* line 212, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 207, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .tablaAper {
   width: 20%;
   display: flex;
@@ -294,7 +285,7 @@ body {
   align-items: center;
 }
 
-/* line 219, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 214, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .tablaImp {
   width: 20%;
   display: flex;
@@ -303,7 +294,7 @@ body {
   align-items: center;
 }
 
-/* line 226, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 221, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .tablaCentral {
   padding-top: 150px;
   height: 300px;
@@ -313,7 +304,7 @@ body {
   justify-content: space-evenly;
 }
 
-/* line 234, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 229, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .menuNavegacion {
   display: flex;
   flex-direction: column;
@@ -321,7 +312,7 @@ body {
   align-content: center;
 }
 
-/* line 240, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 235, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .titulo {
   display: flex;
   flex-direction: column;
@@ -329,12 +320,12 @@ body {
   align-content: center;
 }
 
-/* line 246, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 241, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .volver {
   width: 100px;
 }
 
-/* line 249, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 244, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 #contactoCentrar {
   padding-top: 30px;
   height: 70vh;
@@ -344,33 +335,33 @@ body {
   margin-left: 25%;
 }
 
-/* line 257, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 252, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .hijoContacto {
   height: 0px;
   width: 30%;
   padding: 30px;
 }
 
-/* line 262, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 257, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 .hijoContactoMensaje {
   width: 30%;
   height: 40px;
   padding: 30px;
 }
 
-/* line 267, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 262, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos {
   margin-top: 150px;
 }
 
-/* line 269, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 264, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos .queHacemos__imagen {
   width: 130px;
   box-sizing: border-box;
   border: 2px solid #000;
 }
 
-/* line 274, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 269, ../Germán/Coder/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos .queHacemos__titulo {
   margin-top: 3px;
 }

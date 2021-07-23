@@ -96,9 +96,9 @@ $tamImagen:100vh;
 	background-color: grey;
 	transform: scale(1);
 	text-align: center;
-}
-.navegacion li:hover{
-	transform: scale(1.1);
+	& :hover{
+					transform: scale(1.1);
+	}
 }
 .navegacion{
 	list-style: none;
@@ -135,9 +135,8 @@ $tamImagen:100vh;
 }
 body{
 	background-color:#e91e630f;
-}
-.colorNavegador{
-	background: linear-gradient(to right, #434564, #6967d5);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400px;
 }
 #menu{
 	position: fixed;
@@ -146,10 +145,6 @@ body{
 	display: block;
 	margin-left: 20%;
 	align-content: center;
-}
-body{
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400px;
 }
 #iconos{
 	position: fixed;
@@ -169,6 +164,15 @@ body{
 }
 .cuerpoPresentacion{
 	margin-top: 150px;
+	& p{
+			margin: 20px;
+			padding: 10px;
+		}
+		& img{
+				width: 150px;
+				margin-left:43%;
+				padding: 10px;
+				}
 }
 @media all and (min-width: 576px){
 	.cuerpoPresentacion{
@@ -179,15 +183,6 @@ body{
 	.cuerpoPresentacion{
 	margin-top: 120px;
 }
-}
-.cuerpoPresentacion img{
-	width: 150px;
-	margin-left:43%;
-	padding: 10px;
-}
-.cuerpoPresentacion p{
-	margin: 20px;
-	padding: 10px;
 }
 .tablaCentral img{
 	width: 100px;
