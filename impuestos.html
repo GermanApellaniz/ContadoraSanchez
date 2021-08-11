@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gestion contable, impuestos y sueldos</title>
+	<title>Impuestos</title>
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords"content="contador, Liquidacion, sueldo, impuestos, empresa, asesoramiento, fiscal, bps, dgi, mtss, finanzas, declaracion, factura">
     <meta name="description" content="Contadora que se dedica a la liquidacion de sueldos, impuestos, inscripcion de empresas, gestion contable, y realizacion de tramites en general">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div id="miHead" class="container-flex no-gutters">
@@ -45,35 +46,48 @@
         </div>
       </div>
     </div>
-	<div id="queHacemos">
-		<div class="container row mx-auto">
-			<div class="col-12 col-md-4 col-xl-4 text-center">
-				<a href="sueldos.html"> <img class="liqSueldo border-dark queHacemos__imagen1" src="media/sueldos.jfif" alt="liquidacion"></a>
-				<h3 class="queHacemos__titulo">Liquidacion de Sueldos</h3>
-				<p>CLICK EN LA IMAGEN</p>
-				<h4>Industria y Comercio</h4>
-				<h4>Construccion</h4>
-			</div>
-			<div class="col-12 col-md-4 col-xl-4 text-center">
-				<a href="contabilidad.html"> <img class="liqSueldo border-dark queHacemos__imagen2" src="media/contabilidad.jfif" alt="liquidacion"></a>
-				<h3 class="queHacemos__titulo">Contable</h3>
-				<p>CLICK EN LA IMAGEN</p>
-				<h5>Contabilidad</h5>
-				<h5>Informes Contables</h5>
-				<h5>Balances</h5>
-				<h5>Certificados de Ingresos</h5>
-			</div>
-			<div class="col-12 col-md-4 col-xl-4 text-center">
-				<a href="impuestos.html"> <img class="liqSueldo border-dark queHacemos__imagen3" src="media/impuesto.jfif" alt="liquidacion"></a>
-				<h4 class="queHacemos__titulo">Impuestos</h4>
-				<p>CLICK EN LA IMAGEN</p>
-				<h5>Planes para Pymes</h5>
-				<h5>Liquidación de Impuestos</h5>
-			</div>
-		</div>
-	</div>
+  <div class="bannerImp"></div>  
+	<div class="cuerpoQHacemos">
+    <h1>Impuestos</h1>
+    <h2>IRAE</h2>
+    <h3>Quién debe tributar el IRAE (Impuesto a la Renta de Actividades Económicas)?</h3>
+    <ul>
+      <li>Las Sociedades Anónimas (SA)</li>
+      <li>Las Sociedades de Responsabilidad Limitada (SRL)</li>
+      <li>Los Establecimiento Permanente de un no residente</li>
+      <li>Las Sociedades de Hecho o Civiles que combinen capital y trabajo</li>
+      <li>Las Unipersonales que combinen capital y trabajo</li>
+      <li>Los Servicios Personales, como los profesionales, que opten por tributar dicho impuesto</li>
+      <li>Los Servicios Personales, como los profesionales, que obligatoriamente deban tributar dicho impuesto</li>
+      <li>Los que tengan actividad agropecuaria (los que enajenen bienes primarios en su estado natural)</li>
+    </ul>
+    <h2>IRPF</h2>
+    <h3>Quién debe tributar el IRPF (Impuesto a la Renta de Personas Físicas)?</h3>
+    <p>El IRPF lo deben tributar las personas físicas residentes de Uruguay que obtengan rentas puras de capital y/o rentas puras de trabajo de fuente uruguaya.</p>
+    <h3>Son rentas puras de capital:</h3>
+    <ul>
+      <li>Incrementos patrimoniales (Enajenaciones de cosas)</li>
+      <li>Rendimientos de capital mobiliarios (Intereses y Dividendos o Utilidades percibidos)</li>
+      <li>Rendimientos de capital inmobiliarios (Arrendamientos de inmuebles) </li>
+    </ul>
+    <h3>Son rentas puras de trabajo:</h3>
+    <ul>
+      <li>Remuneraciones dentro de la relación de dependencia</li>
+      <li>Facturación fuera de la relación de dependencia</li>
+    </ul>
+    <h2>IVA</h2>
+    <h3>Quién debe tributar el IVA (Impuesto al Valor Agregado)?</h3>
+    <h4>El IVA lo deben tributar todas aquellas personas (residentes o no) que:</h4>
+    <ul>
+      <li>Brinden servicios en territorio nacional</li>
+      <li>Vendan bienes en territorio nacional</li>
+      <li>Importen bienes desde el exterior</li>
+    </ul>
+    <p>Existen varias exoneraciones y tratamientos especiales para varias transacciones. Todo depende de cada caso en particular.</p>
+  </div>
+  <a href="que_hacemos.html"> <img class="volver" src="media/volver.jpg">Volver</a>
 	<!--Empieza el Footer-->
-	<footer class="site-footer">
+  <footer class="site-footer">
       </div>
       <div class="container">
         <div class="row">
@@ -112,7 +126,7 @@
     </div>
   </div>
 </div>
-	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>

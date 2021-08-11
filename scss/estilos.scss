@@ -13,19 +13,30 @@
 		text-decoration: none;
 	}
 }
-$margenTop:50px;
-
 $tamImagen:100vh;
 .banner{
   min-height: 300px;
   max-height: 381px;
-  max-width:410px;
-  height:30vh;
+  max-width:810px;
+  height: 40vh;
+  width: 55vh;
   background-image: url('../media/fondo.jpg');
   background-size: cover;
   background-position: center;
   margin: auto;
-  margin-top: $margenTop*3;
+  margin-top: 150px;
+}
+.presentcionBanner{
+	min-height: 200px;
+  max-height: 600px;
+  max-width:600px;
+  width: 40vh;
+  height: 40vh;
+  background-image: url('../media/sanchez1.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 20vh;
 }
 
 @media all and (min-width: 576px){
@@ -33,17 +44,18 @@ $tamImagen:100vh;
 		min-height: 300px;
   		max-height: 381px;
  		max-width:810px;
-  		height:30vh;
+  		height: 40vh;
+  		width: 90vh;
   		background-image: url('../media/fondo.jpg');
   		background-size: cover;
   		background-position: center;
   		margin: auto;
-		margin-top: ($margenTop*2)+30px;
+		margin-top: 130px;
 }
 }
 @media all and (min-width: 992px){
 	.banner{
-	margin-top:$margenTop*2;
+	margin-top:100px;
 }
 }
 #miBody .miBody__navegador{
@@ -166,21 +178,26 @@ body{
 	width: 32px;
 }
 .cuerpoPresentacion{
-	margin-top: 150px;
 	& p{
-			margin-left: 30vh;
-			margin-right: 30vh;
-			padding: 10px;
+			padding: 0;
 			text-align:center;
 			font-family:aria-controls;
 			font-size:1.5rem;
+			margin:auto;
+			margin: 0 10vh 10vh;
 		}
-		& img{
-				width: 30vh;
-				margin-left:43%;
-				padding: 10px;
-				}
 }
+.cuerpoQHacemos{
+			padding: 0;
+			text-align:center;
+			font-family:aria-controls;
+			font-size:1.5rem;
+			margin:auto;
+			margin: 0 10vh 10vh;
+			& ul{
+				list-style:none;
+			}
+		}
 @media all and (min-width: 576px){
 	.cuerpoPresentacion{
 	margin-top: 100px;
@@ -246,7 +263,7 @@ body{
 	align-content: center;
 }
 .volver{
-	width: 100px;
+	width: 8vh;
 }
 #contactoCentrar{
 	padding-top: 30px;
@@ -268,12 +285,229 @@ body{
 }
 #queHacemos{
 	margin-top: 150px;
-	& .queHacemos__imagen{
-	width: 130px;
+	& .queHacemos__imagen1{
+	width: 40vh;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	}& .queHacemos__imagen2{
+	width: 41vh;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	}& .queHacemos__imagen3{
+	width: 50vh;
 	box-sizing: border-box;
 	border: 2px solid #000;
 	}
+
 	& .queHacemos__titulo{
 	margin-top: 3px;
 	}
+}
+.site-footer
+{
+  background:linear-gradient(to right, #434564, #6967d5);
+  padding:35px 0 20px;
+  font-size:15px;
+  line-height:20px;
+  color:white;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:white;
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:white;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:white;
+  color:white;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:white;
+  background-color:white;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.qHacemos{
+	margin-top: 100px;
+}
+//pruebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+.bannerCont{
+  max-height: 200px;
+  max-width:300px;
+  height: 40vh;
+  width: 55vh;
+  background-image: url('../media/contabilidad.jfif');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 150px;
+}
+@media all and (min-width: 576px){
+	.bannerCont{
+  		max-height: 200px;
+ 			max-width:300px;
+  		height: 40vh;
+  		width: 90vh;
+  		background-image: url('../media/contabilidad.jfif');
+  		background-size: cover;
+  		background-position: center;
+  		margin: auto;
+			margin-top: 130px;
+}
+}
+@media all and (min-width: 992px){
+	.bannerCont{
+	margin-top:100px;
+}
+}
+.bannerImp{
+  max-height: 200px;
+  max-width:300px;
+  height: 40vh;
+  width: 55vh;
+  background-image: url('../media/impuesto.jfif');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 150px;
+}
+@media all and (min-width: 576px){
+	.bannerImp{
+  		max-height: 200px;
+ 			max-width:300px;
+  		height: 40vh;
+  		width: 90vh;
+  		background-image: url('../media/impuesto.jfif');
+  		background-size: cover;
+  		background-position: center;
+  		margin: auto;
+			margin-top: 130px;
+}
+}
+@media all and (min-width: 992px){
+	.bannerImp{
+	margin-top:100px;
+}
+}
+.bannerSueldo{
+  max-height: 200px;
+  max-width:300px;
+  height: 40vh;
+  width: 55vh;
+  background-image: url('../media/sueldos.jfif');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 150px;
+}
+@media all and (min-width: 576px){
+	.bannerSueldo{
+  		max-height: 200px;
+ 			max-width:300px;
+  		height: 40vh;
+  		width: 90vh;
+  		background-image: url('../media/sueldos.jfif');
+  		background-size: cover;
+  		background-position: center;
+  		margin: auto;
+			margin-top: 130px;
+}
+}
+@media all and (min-width: 992px){
+	.bannerSueldo{
+	margin-top:100px;
+}
 }
