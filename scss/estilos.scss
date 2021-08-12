@@ -191,7 +191,7 @@ body{
 			padding: 0;
 			text-align:center;
 			font-family:aria-controls;
-			font-size:1.5rem;
+			font-size:1.2rem;
 			margin:auto;
 			margin: 0 10vh 10vh;
 			& ul{
@@ -264,24 +264,6 @@ body{
 }
 .volver{
 	width: 8vh;
-}
-#contactoCentrar{
-	padding-top: 30px;
-	height: 70vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 25%;
-}
-.hijoContacto{
-	height:0px;
-	width: 30%;
-	padding: 30px;
-}
-.hijoContactoMensaje{
-	width: 30%;
-	height:40px;
-	padding: 30px;
 }
 #queHacemos{
 	margin-top: 150px;
@@ -423,7 +405,6 @@ body{
 .qHacemos{
 	margin-top: 100px;
 }
-//pruebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 .bannerCont{
   max-height: 200px;
   max-width:300px;
@@ -506,8 +487,86 @@ body{
 			margin-top: 130px;
 }
 }
+
 @media all and (min-width: 992px){
 	.bannerSueldo{
 	margin-top:100px;
 }
+}
+@media all and (min-width: 576px){
+	.container1{
+	margin-top:130px;
+}
+}
+@media all and (min-width: 992px){
+	.container1{
+	margin-top:100px;
+}
+}
+.container1 {
+  width: 50%;
+  margin: 0 auto;
+  margin-top:150px;
+}
+
+.form-contact1 {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-input1 {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-contact-textarea1 {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-button1 {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #B22222;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+}
+
+.form-contact-button1:hover {
+  opacity: 1;
 }

@@ -251,7 +251,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: aria-controls;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: auto;
   margin: 0 10vh 10vh;
 }
@@ -351,61 +351,37 @@ body {
 }
 
 /* line 268, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
-#contactoCentrar {
-  padding-top: 30px;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 25%;
-}
-
-/* line 276, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
-.hijoContacto {
-  height: 0px;
-  width: 30%;
-  padding: 30px;
-}
-
-/* line 281, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
-.hijoContactoMensaje {
-  width: 30%;
-  height: 40px;
-  padding: 30px;
-}
-
-/* line 286, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos {
   margin-top: 150px;
 }
 
-/* line 288, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 270, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos .queHacemos__imagen1 {
   width: 40vh;
   box-sizing: border-box;
   border: 2px solid #000;
 }
 
-/* line 292, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 274, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos .queHacemos__imagen2 {
   width: 41vh;
   box-sizing: border-box;
   border: 2px solid #000;
 }
 
-/* line 296, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 278, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos .queHacemos__imagen3 {
   width: 50vh;
   box-sizing: border-box;
   border: 2px solid #000;
 }
 
-/* line 302, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 284, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 #queHacemos .queHacemos__titulo {
   margin-top: 3px;
 }
 
-/* line 306, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 288, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .site-footer {
   background: linear-gradient(to right, #434564, #6967d5);
   padding: 35px 0 20px;
@@ -414,34 +390,34 @@ body {
   color: white;
 }
 
-/* line 314, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 296, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .site-footer a:hover {
   color: #3366cc;
   text-decoration: none;
 }
 
-/* line 319, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 301, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .footer-links {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 324, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 306, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .footer-links li {
   display: block;
 }
 
-/* line 328, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 310, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .footer-links.inline li {
   display: inline-block;
 }
 
-/* line 332, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 314, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .site-footer .social-icons {
   text-align: right;
 }
 
-/* line 336, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 318, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .site-footer .social-icons a {
   width: 40px;
   height: 40px;
@@ -452,43 +428,43 @@ body {
   background-color: white;
 }
 
-/* line 346, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 328, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .copyright-text {
   margin: 0;
 }
 
 @media (max-width: 991px) {
-  /* line 352, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 334, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .site-footer [class^=col-] {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 359, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 341, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .site-footer {
     padding-bottom: 0;
   }
-  /* line 363, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 345, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .site-footer .copyright-text, .site-footer .social-icons {
     text-align: center;
   }
 }
 
-/* line 368, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 350, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .social-icons {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
 
-/* line 374, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 356, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .social-icons li {
   display: inline-block;
   margin-bottom: 4px;
 }
 
-/* line 379, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 361, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .social-icons li.title {
   margin-right: 15px;
   text-transform: uppercase;
@@ -497,7 +473,7 @@ body {
   font-size: 13px;
 }
 
-/* line 387, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 369, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .social-icons a {
   background-color: white;
   color: white;
@@ -514,13 +490,13 @@ body {
   transition: all .2s linear;
 }
 
-/* line 402, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 384, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
   color: white;
   background-color: white;
 }
 
-/* line 407, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 389, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .social-icons.size-sm a {
   line-height: 34px;
   height: 34px;
@@ -529,7 +505,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* line 416, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 398, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .social-icons li.title {
     display: block;
     margin-right: 0;
@@ -537,12 +513,12 @@ body {
   }
 }
 
-/* line 423, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 405, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .qHacemos {
   margin-top: 100px;
 }
 
-/* line 427, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 408, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .bannerCont {
   max-height: 200px;
   max-width: 300px;
@@ -556,7 +532,7 @@ body {
 }
 
 @media all and (min-width: 576px) {
-  /* line 439, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 420, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .bannerCont {
     max-height: 200px;
     max-width: 300px;
@@ -571,13 +547,13 @@ body {
 }
 
 @media all and (min-width: 992px) {
-  /* line 452, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 433, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .bannerCont {
     margin-top: 100px;
   }
 }
 
-/* line 456, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 437, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .bannerImp {
   max-height: 200px;
   max-width: 300px;
@@ -591,7 +567,7 @@ body {
 }
 
 @media all and (min-width: 576px) {
-  /* line 468, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 449, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .bannerImp {
     max-height: 200px;
     max-width: 300px;
@@ -606,13 +582,13 @@ body {
 }
 
 @media all and (min-width: 992px) {
-  /* line 481, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 462, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .bannerImp {
     margin-top: 100px;
   }
 }
 
-/* line 485, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 466, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .bannerSueldo {
   max-height: 200px;
   max-width: 300px;
@@ -626,7 +602,7 @@ body {
 }
 
 @media all and (min-width: 576px) {
-  /* line 497, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 478, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .bannerSueldo {
     max-height: 200px;
     max-width: 300px;
@@ -641,10 +617,98 @@ body {
 }
 
 @media all and (min-width: 992px) {
-  /* line 510, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 492, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .bannerSueldo {
     margin-top: 100px;
   }
+}
+
+@media all and (min-width: 576px) {
+  /* line 497, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  .container1 {
+    margin-top: 130px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  /* line 502, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  .container1 {
+    margin-top: 100px;
+  }
+}
+
+/* line 506, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+.container1 {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+/* line 512, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+.form-contact1 {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+/* line 517, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+.form-contact-input1 {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+/* line 533, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+.form-contact-textarea1 {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
+
+/* line 553, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+.form-contact-button1 {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #B22222;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+}
+
+/* line 570, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+.form-contact-button1:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=estilos.css.map */
