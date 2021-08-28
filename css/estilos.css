@@ -623,34 +623,29 @@ body {
   }
 }
 
+/* line 496, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
 @media all and (min-width: 576px) {
-  /* line 497, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+  /* line 502, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
   .container1 {
+    width: 60%;
+    margin: 0 auto;
     margin-top: 130px;
   }
 }
 
-@media all and (min-width: 992px) {
-  /* line 502, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
-  .container1 {
-    margin-top: 100px;
-  }
-}
-
-/* line 506, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
-.container1 {
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 150px;
-}
-
-/* line 512, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 509, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .form-contact1 {
   width: 100%;
   font-family: "Arial", Times, serif;
 }
 
-/* line 517, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 514, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .form-contact-input1 {
   width: 100%;
   color: #292929;
@@ -667,7 +662,7 @@ body {
   text-indent: 20px;
 }
 
-/* line 533, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 530, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .form-contact-textarea1 {
   width: 100%;
   color: #292929;
@@ -688,7 +683,7 @@ body {
   font-family: "Arial", Times, serif;
 }
 
-/* line 553, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 550, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .form-contact-button1 {
   width: 100%;
   font-size: 18px;
@@ -706,7 +701,7 @@ body {
   transition: 1s;
 }
 
-/* line 570, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
+/* line 567, ../Germán/CoderHause/Web/Proyecto 1/entrega1/scss/estilos.scss */
 .form-contact-button1:hover {
   opacity: 1;
 }
